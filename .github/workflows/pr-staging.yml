@@ -71,7 +71,7 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          const preview_url = 'https://ciroh-ua.github.io/docuhub-staging/${{ env.PREVIEW_PATH }}';
+          const preview_url = 'https://arpita0911patel.github.io/docuhub-staging/${{ env.PREVIEW_PATH }}';
           github.rest.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
