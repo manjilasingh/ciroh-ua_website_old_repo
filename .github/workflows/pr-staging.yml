@@ -30,7 +30,7 @@ jobs:
       id: preview_path
       run: |
         PR_NUMBER=${{ github.event.pull_request.number }}
-        echo "PREVIEW_PATH=pr-${PR_NUMBER}" >> $GITHUB_ENV
+        echo "PREVIEW_PATH=docuhub-staging/pr-${PR_NUMBER}" >> $GITHUB_ENV
         
     - name: Configure DocuHub for preview
       run: |
