@@ -46,7 +46,7 @@ jobs:
     - name: Checkout staging repository
       uses: actions/checkout@v3
       with:
-        repository: 'CIROH-UA/docuhub-staging'  # Replace with your staging repository
+        repository: 'arpita0911patel/docuhub-staging'  # Replace with your staging repository
         token: ${{ secrets.STAGING_REPO_TOKEN }}
         path: 'staging-repo'
 
